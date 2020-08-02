@@ -5,13 +5,15 @@ import Hero from "../components/Hero"
 import Layout from "../layouts/Layout"
 import Newsletter from "../components/Newsletter"
 import SiteMetadata from "../components/SiteMetadata"
+import WhatWeDo from "../components/WhatWeDo"
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SiteMetadata title="Home" description="Portfolio of John Doe" />
+      <SiteMetadata title="Home" description="Portfolio of OW Builders" />
 
       <Hero />
+      <WhatWeDo /> 
 
       <div className="bg-gray-100 py-12 lg:py-16">
         {data.portfolio && data.portfolio.nodes.length > 0 ? (
