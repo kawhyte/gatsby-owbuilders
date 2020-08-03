@@ -12,7 +12,7 @@ function WhatWeDoSection() {
         
             <div class="flex flex-wrap">
                 <div class="w-5/6 sm:w-1/2 p-6">
-                    <h3 class="text-md text-gray-800 font-bold leading-none mb-3 uppercase">What we do</h3>
+                    <h3 class="text-md text-red-400 font-bold leading-none mb-3 uppercase">What we do</h3>
                     <p class="text-gray-600 mb-8 text-3xl">Working with both clients and contractors to develop plans, set schedules and timelines, and complete projects according to time and budget expectations.<br /><br />
                     </p>
                     

@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
        
 
       <div className="bg-gray-100 ">
-      <h1 className="text-md pt-8 pb-2 lg:pb-1 container text-md text-gray-800 font-bold leading-none mb-3 uppercase ">Portfolio</h1>
+      <h1 className="text-md pt-8 pb-2 px-8 lg:pb-1 container text-md text-red-400 font-bold leading-none mb-3 uppercase ">Portfolio</h1>
         {data.portfolio && data.portfolio.nodes.length > 0 ? (
           <Cards items={data.portfolio.nodes} />
         ) : (
