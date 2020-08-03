@@ -12,7 +12,7 @@ module.exports = {
   siteMetadata: {
     menu: [
       { name: "Home", to: "/" },
-      { name: "Portfolio", to: "/portfolio" },
+      { name: "Projects", to: "/projects" },
       { name: "About", to: "/about" },
       { name: "Contact", to: "/contact" },
     ],

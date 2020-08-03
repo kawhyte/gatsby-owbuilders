@@ -26,7 +26,7 @@ function Hero() {
             <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
             Architectural  
               <br class="xl:hidden" />
-              <span class="text-gray-900"> Project Management </span>
+              <span class="text-red-400"> Project Management </span>
             </h2>
             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             Working with both clients and contractors to develop plans, set schedules and timelines, and complete projects according to time and budget expectations for Residential & Commercial Buildings.

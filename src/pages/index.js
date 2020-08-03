@@ -5,9 +5,10 @@ import Hero from "../components/Hero"
 import Layout from "../layouts/Layout"
 import Newsletter from "../components/Newsletter"
 import SiteMetadata from "../components/SiteMetadata"
-import WhatWeDo from "../components/WhatWeDo"
+
 import WhatWeDoSection from "../components/WhatWeDoSection"
 import Services from "../components/Services"
+import Projects from "../components/Projects"
 
 const IndexPage = ({ data }) => {
   return (
@@ -17,18 +18,12 @@ const IndexPage = ({ data }) => {
       <Hero />
       <WhatWeDoSection /> 
        
-
-      <div className="bg-gray-100 ">
-      <h1 className="text-md pt-8 pb-2 px-8 lg:pb-1 container text-md text-red-400 font-bold leading-none mb-3 uppercase ">Portfolio</h1>
-        {data.portfolio && data.portfolio.nodes.length > 0 ? (
-          <Cards items={data.portfolio.nodes} />
-        ) : (
-          <div className="container">No portfolio items found.</div>
-        )}
-      </div>
       <Services />
-      <WhatWeDo />
-      <Newsletter />
+  
+
+
+      
+   
     </Layout>
   )
 }
