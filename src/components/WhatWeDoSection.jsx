@@ -15,7 +15,7 @@ function WhatWeDoSection() {
             <h3 className=" lg:text-md text-red-400 font-bold leading-none mb-3 uppercase">
               What we do
             </h3>
-            <p className="text-gray-600  text-xl lg:text-3xl">
+            <p className="text-gray-600  text-xl lg:text-2xl">
              We work with both clients and contractors to develop plans, set
               schedules and timelines, and complete projects according to time
               and budget expectations.
