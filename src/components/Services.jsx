@@ -5,12 +5,12 @@ import drafting from "../images/drafting.jpg"
 function Services() {
   return (
     <div className="bg-gray-900">
-      <div className="container ">
-        <h1 className="text-md pb-2 py-20 lg:pb-1  text-md text-red-400 font-bold leading-none mb-3 uppercase ">
+      <div className="container mx-auto ">
+        <h1 className="text-md pb-2 py-12 lg:pb-1  text-md text-red-400 font-bold leading-none mb-3 uppercase ">
           our services
         </h1>
 
-        <section className="py-8 text-white ">
+        <section className="py-2 text-white ">
           <div className="container max-w-5xl mx-auto m-8">
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 p-6">
