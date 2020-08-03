@@ -7,17 +7,17 @@ function Services() {
     <div className="bg-gray-900">
       <div className="container ">
         <h1 className="text-md pb-2 py-20 lg:pb-1  text-md text-red-400 font-bold leading-none mb-3 uppercase ">
-          What sets us services apart 
+          our services
         </h1>
 
-        <section class="py-8 text-white ">
-          <div class="container max-w-5xl mx-auto m-8">
-            <div class="flex flex-wrap">
-              <div class="w-5/6 sm:w-1/2 p-6">
-                <h3 class="text-3xl font-bold leading-none mb-3">
+        <section className="py-8 text-white ">
+          <div className="container max-w-5xl mx-auto m-8">
+            <div className="flex flex-wrap">
+              <div className="w-5/6 sm:w-1/2 p-6">
+                <h3 className="text-3xl font-bold leading-none mb-3">
                   Project Management
                 </h3>
-                <p class="text-gray-400 mb-8">
+                <p className="text-gray-400 mb-8 text-xl lg:text-xl">
                   Project management is a critical practice that applies
                   knowledge of process, skills, tools, deliverables, and
                   techniques to project activities to ensure a solid path to
@@ -26,26 +26,25 @@ function Services() {
                   <br />
                 </p>
               </div>
-              <div class="w-full sm:w-1/2 p-6">
+              <div className="w-full sm:w-1/2 p-6">
                 <img className="w-full mx-auto" src={project} alt="Contacts" />
               </div>
             </div>
 
-            <div class="flex flex-wrap flex-col-reverse sm:flex-row">
-              <div class="w-full sm:w-1/2 p-6 mt-6">
+            <div className="flex flex-wrap flex-col-reverse sm:flex-row">
+              <div className="w-full sm:w-1/2 p-6 mt-6">
                 <img
                   className="w-full mx-auto"
                   src={man_drawing}
-                  //   src="https://res.cloudinary.com/babyhulk/image/upload/w_70,h_70,f_auto/v1589318555/hero-image/avatar-01.png"
                   alt="Contacts"
                 />
               </div>
-              <div class="w-full sm:w-1/2 p-6 mt-6">
-                <div class="align-middle">
-                  <h3 class="text-3xl text-white font-bold leading-none mb-3">
+              <div className="w-full sm:w-1/2 p-6 mt-6">
+                <div className="align-middle">
+                  <h3 className="text-3xl text-white font-bold leading-none mb-3">
                     Working Drawing{" "}
                   </h3>
-                  <p class="text-gray-400 mb-8">
+                  <p className="text-gray-400 mb-8 text-xl lg:text-xl">
                     Working drawings provide graphical, and dimensioned
                     information. This data is used by the contractors to build
                     their work. Working drawing can be in the form of structural
@@ -58,12 +57,12 @@ function Services() {
               </div>
             </div>
 
-            <div class="flex flex-wrap">
-              <div class="w-5/6 sm:w-1/2 p-6">
-                <h3 class="text-3xl text-white font-bold leading-none mb-3">
+            <div className="flex flex-wrap">
+              <div className="w-5/6 sm:w-1/2 p-6">
+                <h3 className="text-3xl text-white font-bold leading-none mb-3">
                   Drafting
                 </h3>
-                <p class="text-gray-400 mb-8">
+                <p className="text-gray-400 mb-8 text-xl lg:text-xl">
                   Drafting is the visual language of industry, construction and
                   engineering. Drafting services will be able to provide
                   technical drawings for any purpose, including unit
@@ -75,9 +74,9 @@ function Services() {
                   <br />
                 </p>
               </div>
-              <div class="w-full sm:w-1/2 p-6">
+              <div className="w-full sm:w-1/2 p-6">
                 <img
-                  className="w-full  mx-auto"
+                  className="w-full  mx-auto "
                   src={drafting}
                   //   src="https://res.cloudinary.com/babyhulk/image/upload/w_70,h_70,f_auto/v1589318555/hero-image/avatar-01.png"
                   alt="Contacts"

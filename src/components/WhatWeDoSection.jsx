@@ -4,28 +4,28 @@ import blueprint from "../images/blueprint.jpg"
 
 function WhatWeDoSection() {
   return (
-    <section class="bg-white pt-8">
-      <div class="container max-w-5xl mx-auto mt-8">
-        <div class="w-full mb-4">
-          <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    <section className="bg-white mt-56 lg:mt-0 ">
+      <div className="container max-w-5xl mx-auto mt-8">
+        <div className="w-full mb-4">
+          <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
 
-        <div class="flex flex-wrap">
-          <div class="w-5/6 sm:w-1/2 p-6">
-            <h3 class="text-md text-red-400 font-bold leading-none mb-3 uppercase">
+        <div className="flex flex-wrap">
+          <div className="w-5/6 sm:w-1/2 p-6">
+            <h3 className=" lg:text-md text-red-400 font-bold leading-none mb-3 uppercase">
               What we do
             </h3>
-            <p class="text-gray-600 mb-8 text-3xl">
-              Working with both clients and contractors to develop plans, set
+            <p className="text-gray-600  text-xl lg:text-3xl">
+             We work with both clients and contractors to develop plans, set
               schedules and timelines, and complete projects according to time
               and budget expectations.
               <br />
               <br />
             </p>
           </div>
-          <div class="w-full sm:w-1/2 p-1 pt-12">
+          <div className="w-full sm:w-1/2 pb-1 mb-12 lg:mb-20 lg:pt-8">
             <img
-              className="w-full sm:h-auto mx-auto"
+              className="w-full  sm:h-auto mx-auto"
               src={blueprint}
               alt="Blueprint"
             />
