@@ -1,4 +1,6 @@
 import React from "react"
+import { Link } from "gatsby"
+import Img from "gatsby-image"
 import pool from "../images/house.jpg"
 
 function Hero() {
@@ -33,9 +35,9 @@ function Hero() {
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
-                <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-400 hover:bg-gray-900 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                <Link to="projects" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-400 hover:bg-gray-900 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                   View Projects
-                </a>
+                </Link>
               </div>
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-700 bg-indigo-100 hover:text-gray-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
@@ -49,11 +51,38 @@ function Hero() {
     </div>
     <div className="absolute lg:inset-y-0 lg:right-0 lg:w-1/2 ">
       <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src={pool} alt="" />
-    </div>
+   
+   
+   
+   
+      </div>
   </div>
 
   )
 }
 
 export default Hero
+
+
+export const query = graphql`
+  query HeroQuery {
+    portfolio: allContentfulPortfolio {
+      nodes {
+        ...PortfolioCard
+      }
+    }
+
+    house: file(relativePath: { eq: "house.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 600, maxHeight: 480, quality: 85) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+
+
+
+
+  }
+`
 
