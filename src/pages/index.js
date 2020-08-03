@@ -6,6 +6,8 @@ import Layout from "../layouts/Layout"
 import Newsletter from "../components/Newsletter"
 import SiteMetadata from "../components/SiteMetadata"
 import WhatWeDo from "../components/WhatWeDo"
+import WhatWeDoSection from "../components/WhatWeDoSection"
+import Services from "../components/Services"
 
 const IndexPage = ({ data }) => {
   return (
@@ -13,15 +15,19 @@ const IndexPage = ({ data }) => {
       <SiteMetadata title="Home" description="Portfolio of OW Builders" />
 
       <Hero />
-      <WhatWeDo /> 
+      <WhatWeDoSection /> 
+       
 
-      <div className="bg-gray-100 py-12 lg:py-16">
+      <div className="bg-gray-100 ">
+      <h1 className="text-md pt-8 pb-2 lg:pb-1 container text-md text-gray-800 font-bold leading-none mb-3 uppercase ">Portfolio</h1>
         {data.portfolio && data.portfolio.nodes.length > 0 ? (
           <Cards items={data.portfolio.nodes} />
         ) : (
-          <div className="container">No projects found.</div>
+          <div className="container">No portfolio items found.</div>
         )}
       </div>
+      <Services />
+      <WhatWeDo />
       <Newsletter />
     </Layout>
   )

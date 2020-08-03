@@ -17,7 +17,7 @@ function WhatWeDo() {
                 src={builder}
                 />
                 </div>
-                <p className='text-lg text-center sm:m-5 md:text-md font-Montserrat uppercase bg-orange-200 p-1 '>
+                <p className='text-lg text-center sm:m-5 md:text-md font-Montserrat uppercase bg-orange-100 p-1 '>
                 Project Management
                 </p>
                     <div className='p-5 break-words text-gray-700 text-md font-light font-Montserrat'>
@@ -32,7 +32,7 @@ function WhatWeDo() {
                         src={building}
                     />
                 </div>
-                    <p className='text-lg sm:m-5 text-center md:text-md font-Montserrat uppercase bg-orange-200 p-1 '>
+                    <p className='text-lg sm:m-5 text-center md:text-md font-Montserrat uppercase bg-orange-100 p-1 '>
                     Working Drawing
                     </p>
                     <div className='p-5 break-words text-gray-700 text-md font-light font-Montserrat'>
@@ -50,7 +50,7 @@ function WhatWeDo() {
                 src={drawing}
                 />
                 </div>
-                <p className='text-lg sm:m-5 text-center md:text-md font-Montserrat uppercase bg-orange-200 p-1'>
+                <p className='text-lg sm:m-5 text-center md:text-md font-Montserrat uppercase bg-orange-100 p-1'>
                 Drafting
                 </p>
                     <div className='p-5 break-words text-gray-700 text-md font-light font-Montserrat'>
