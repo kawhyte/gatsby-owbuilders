@@ -2,6 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import React, { useState } from "react"
 import MenuMobile from "./MenuMobile"
 import { FaBars } from "react-icons/fa"
+import img from '../images/logo3.svg'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,7 +24,7 @@ const Header = () => {
     <div className="px-20 container pt-6 pb-12 md:pt-6">
       <div className="flex justify-between items-center">
         <Link to="/">
-          <img alt="Logo" className="w-32 md:w-40" src="logo3.svg" />
+          <img alt="Logo" className="w-32 md:w-40" src={img} />
         </Link>
 
         <button
