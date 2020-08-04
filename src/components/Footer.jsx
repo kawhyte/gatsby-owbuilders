@@ -39,7 +39,7 @@ const Footer = () => {
         />
       </ul>
       <div className="mt-8 md:mt-0 md:order-1">
-        <p className="text-center text-sm md:text-base text-gray-700">
+        <p className="text-center text-sm md:text-base text-md pb-2 py-12 lg:pb-1  text-md text-red-400 font-bold leading-none mb-3 uppercase">
           &copy; 2020 OW Builders. All rights reserved.
         </p>
       </div>
