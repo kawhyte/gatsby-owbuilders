@@ -2,10 +2,12 @@ import { graphql } from "gatsby"
 import React from 'react'
 import Projects from "../components/Projects.jsx"
 import Layout from "../layouts/Layout.jsx"
+import SiteMetadata from "../components/SiteMetadata"
 
 const Project = ({ data }) => {
     return (
         <Layout>
+        <SiteMetadata title="Projects" description="Projects for OW Builders" />
         <div>
              <Projects data ={data} />
         </div>

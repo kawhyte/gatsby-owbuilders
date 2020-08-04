@@ -9,7 +9,7 @@ import Services from "../components/Services"
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SiteMetadata title="Home" description="Portfolio of OW Builders" />
+      <SiteMetadata title="Home" description="Home page for OW Builders" />
 
       <Hero />
       <WhatWeDoSection />
