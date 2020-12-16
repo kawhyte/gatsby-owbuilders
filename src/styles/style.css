@@ -25,6 +25,34 @@ body {
 }
 
 
+.hero img {
+  height: 65vh;
+
+
+}
+
+
+.dark-img {
+  position: relative;
+ 
+}
+
+.dark-img img {
+  display: block;
+  width: 100%;
+}
+
+.dark-img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, .2);
+}
+
 .kenburns-top {
 	-webkit-animation: kenburns-top 5s ease-out both;
 	        animation: kenburns-top 5s ease-out both;
