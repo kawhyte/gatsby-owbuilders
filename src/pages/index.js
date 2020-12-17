@@ -6,6 +6,7 @@ import SiteMetadata from "../components/SiteMetadata"
 import WhatWeDoSection from "../components/WhatWeDoSection"
 import Services from "../components/Services"
 import Projects from "../components/Projects"
+import Feature from "../components/Feature"
 
 const IndexPage = ({ data }) => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = ({ data }) => {
       <SiteMetadata title="Home" description="Home page for OW Builders" />
 
       <Hero />
+      <Feature /> 
       <WhatWeDoSection />
 
       <Services />

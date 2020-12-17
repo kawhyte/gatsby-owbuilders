@@ -27,7 +27,8 @@ function WhatWeDoSection() {
               <br />
             </p>
           </div>
-          <div className="w-full sm:w-1/2 pb-1 mb-12 lg:mb-20 lg:pt-8">
+          <div className="w-full sm:w-1/2 pb-1 mb-12 lg:mb-20 lg:pt-8 rounded-3xl">
+          
             <img
               className="w-full  sm:h-auto mx-auto"
               src={blueprint}
