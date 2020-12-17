@@ -4,10 +4,11 @@ import project from "../images/project.jpg"
 import drafting from "../images/drafting.jpg"
 function Services() {
   return (
-    <div className="bg-black">
-      <div className="container mx-auto ">
+    
+    <div className="bg-black container max-w-5xl">
+      <div className="container  max-w-5xl  ">
         <h1 className="text-md pb-2 py-12 lg:pb-1  text-md text-white font-bold leading-none mb-3 uppercase ">
-          our services
+          What we do
         </h1>
 
         <section className="py-2 text-white ">

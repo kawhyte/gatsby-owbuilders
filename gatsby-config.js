@@ -15,7 +15,6 @@ module.exports = {
       { name: "Projects", to: "/projects" },
       { name: "Services", to: "/ " },
       { name: "Testimonials", to: "/ " },
-      { name: "About", to: "/about" },
       { name: "Contact", to: "/ " },
       // { name: "Contact", to: "/contact" },
     ],
