@@ -2,7 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import React, { useState } from "react"
 import MenuMobile from "./MenuMobile"
 import { FaBars } from "react-icons/fa"
-import img from '../images/logo3.svg'
+import img from '../images/logo4.svg'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
