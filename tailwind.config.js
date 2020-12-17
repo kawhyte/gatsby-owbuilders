@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       sans: ["Inter var", "system-ui", "sans-serif"],
     },
+    
 
     colors: {
       transparent: 'transparent',

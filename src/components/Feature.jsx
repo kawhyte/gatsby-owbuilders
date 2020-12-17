@@ -7,9 +7,9 @@ function Feature() {
         <div class="py-12 bg-white">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:text-center">
-              <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">Transactions</h2>
+              <h2 class="text-base text-red-700 font-semibold tracking-wide uppercase">What You will get</h2>
               <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                A better way to send money
+              Unique Architectural solutions
               </p>
               <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
                 Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in accusamus quisquam.
@@ -29,7 +29,7 @@ function Feature() {
                   </div>
                   <div class="ml-4">
                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                      Competitive exchange rates
+                      Your imagination
                     </dt>
                     <dd class="mt-2 text-base text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
@@ -49,7 +49,7 @@ function Feature() {
                   </div>
                   <div class="ml-4">
                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                      No hidden fees
+                     Planning & Development
                     </dt>
                     <dd class="mt-2 text-base text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
@@ -69,7 +69,7 @@ function Feature() {
                   </div>
                   <div class="ml-4">
                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                      Transfers are instant
+                      Best Solutions 
                     </dt>
                     <dd class="mt-2 text-base text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
@@ -89,7 +89,7 @@ function Feature() {
                   </div>
                   <div class="ml-4">
                     <dt class="text-lg leading-6 font-medium text-gray-900">
-                      Mobile notifications
+                    Personalized Process
                     </dt>
                     <dd class="mt-2 text-base text-gray-500">
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.

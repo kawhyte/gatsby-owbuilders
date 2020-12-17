@@ -12,7 +12,7 @@ function WhatWeDoSection() {
 
         <div className="flex flex-wrap">
           <div className="w-5/6 sm:w-1/2 p-6">
-            <h3 className=" lg:text-md text-red-800 font-bold leading-none mb-3 uppercase">
+            <h3 className=" lg:text-md text-red-700 font-bold leading-none mb-3 uppercase">
               About Us
             </h3>
             <p className="text-gray-600 text-base  lg:text-lg">
