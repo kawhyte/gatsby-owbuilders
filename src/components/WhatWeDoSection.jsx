@@ -1,6 +1,6 @@
 import React from "react"
 import manDrawing from "../images/large_drawing.jpg"
-import blueprint from "../images/blueprint.jpg"
+import blueprint from "../images/greenhouse.jpg"
 
 function WhatWeDoSection() {
   return (
@@ -34,6 +34,7 @@ function WhatWeDoSection() {
               alt="Blueprint"
             />
           </div>
+
         </div>
       </div>
     </section>

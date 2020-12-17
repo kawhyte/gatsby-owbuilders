@@ -5,7 +5,7 @@ function Projects({data}) {
     
     return (
         <div className="bg-white">
-        <h1 className="text-md pb-2 pt-12 px-8 lg:pb-1 container text-md text-black  uppercase text-2xl sm:text-2xl leading-tight font-bold tracking-tight mb-8 ">Latest Projects</h1>
+        <h1 className="text-md pb-2 pt-12 px-8 lg:pb-1 container text-md text-red-700 uppercase text-md sm:text-md leading-tight font-bold tracking-tight mb-8 ">Latest Projects</h1>
           {data.portfolio && data.portfolio.nodes.length > 0 ? (
             <Cards items={data.portfolio.nodes} />
           ) : (
