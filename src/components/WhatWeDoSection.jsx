@@ -12,10 +12,10 @@ function WhatWeDoSection() {
 
         <div className="flex flex-wrap">
           <div className="w-5/6 sm:w-1/2 p-6">
-            <h3 className=" lg:text-md text-red-400 font-bold leading-none mb-3 uppercase">
+            <h3 className=" lg:text-md text-black font-bold leading-none mb-3 uppercase">
               What we do
             </h3>
-            <p className="text-gray-600  text-xl lg:text-2xl">
+            <p className="text-gray-600  text-lg lg:text-xl">
              We work with both clients and contractors to develop plans, set
               schedules and timelines, and complete projects according to time
               and budget expectations.

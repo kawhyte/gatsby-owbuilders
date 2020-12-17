@@ -13,7 +13,10 @@ module.exports = {
     menu: [
       { name: "Home", to: "/" },
       { name: "Projects", to: "/projects" },
+      { name: "Services", to: "/ " },
+      { name: "Testimonials", to: "/ " },
       { name: "About", to: "/about" },
+      { name: "Contact", to: "/ " },
       // { name: "Contact", to: "/contact" },
     ],
     links: {
