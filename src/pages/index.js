@@ -5,6 +5,7 @@ import Layout from "../layouts/Layout"
 import SiteMetadata from "../components/SiteMetadata"
 import WhatWeDoSection from "../components/WhatWeDoSection"
 import Services from "../components/Services"
+import Projects from "../components/Projects"
 
 const IndexPage = ({ data }) => {
   return (
@@ -15,6 +16,7 @@ const IndexPage = ({ data }) => {
       <WhatWeDoSection />
 
       <Services />
+   
     </Layout>
   )
 }
