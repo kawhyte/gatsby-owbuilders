@@ -1,8 +1,8 @@
 {
   "name": "gatsby-contentful-portfolio",
-  "description": "Portfolio theme for GatsbyJS",
+  "description": "Architectural portfolio of OWBuilders",
   "version": "1.0.0",
-  "author": "Wojciech Kocjan <wojciech@kocjan.net>",
+  "author": "",
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
