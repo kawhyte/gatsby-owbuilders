@@ -17,8 +17,8 @@ function Hero() {
               <br className="xl:hidden" />
               <span className="text-white"> Project Management </span>
             </h2>
-            <p className="font-mono mt-3 text-base text-gray-200 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Make your dream residential home or commercial building a reality
+            <p className="font-mono mt-3 text-base text-gray-200 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+            Make your dream residential home or commercial building a reality.
             </p>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="rounded-md shadow">
