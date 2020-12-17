@@ -24,7 +24,7 @@ const Header = () => {
     <nav className="px-10 container pt-6 pb-6 ">
       <div className="flex justify-between items-center">
         <Link to="/">
-          <img alt="Logo" className="w-32 md:w-40" src={img} />
+          <img alt="Logo" className="w-32 md:w-32" src={img} />
         </Link>
 
         <button

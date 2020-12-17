@@ -15,10 +15,10 @@ function Services() {
           <div className="container max-w-5xl mx-auto m-8">
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 p-6">
-                <h3 className="text-3xl font-bold leading-none mb-3">
+                <h3 className="text-2xl font-bold leading-none mb-3">
                   Project Management
                 </h3>
-                <p className="text-gray-400 mb-8 text-xl lg:text-xl">
+                <p className="text-gray-400 mb-8 text-base lg:text-lg">
                   Project management is a critical practice that applies
                   knowledge of process, skills, tools, deliverables, and
                   techniques to project activities to ensure a solid path to
@@ -42,10 +42,10 @@ function Services() {
               </div>
               <div className="w-full sm:w-1/2 p-6 mt-6">
                 <div className="align-middle">
-                  <h3 className="text-3xl text-white font-bold leading-none mb-3">
+                  <h3 className="text-2xl font-bold leading-none mb-3">
                     Working Drawing{" "}
                   </h3>
-                  <p className="text-gray-400 mb-8 text-xl lg:text-xl">
+                  <p className="text-gray-400 mb-8 text-base lg:text-lg">
                     Working drawings provide graphical, and dimensioned
                     information. This data is used by the contractors to build
                     their work. Working drawing can be in the form of structural
@@ -60,10 +60,10 @@ function Services() {
 
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 p-6">
-                <h3 className="text-3xl text-white font-bold leading-none mb-3">
+                <h3 className="text-2xl font-bold leading-none mb-3">
                   Drafting
                 </h3>
-                <p className="text-gray-400 mb-8 text-xl lg:text-xl">
+                <p className="text-gray-400 mb-8 text-base lg:text-lg">
                   Drafting is the visual language of industry, construction and
                   engineering. Drafting services will be able to provide
                   technical drawings for any purpose, including unit
