@@ -6,15 +6,15 @@ function Services() {
   return (
     
     <div className="bg-black  ">
-      <div className=" ">
-        <h1 className="container text-md pb-2 py-12 lg:pb-1  text-md text-white font-bold leading-none mb-3 uppercase ">
-          What we do
-        </h1>
-
-        <section className="py-2 text-white ">
-          <div className="container max-w-5xl mx-auto m-8">
+    
+      
+      <section className=" text-white ">
+      <div className="container max-w-5xl mx-auto md:mt-8">
+      <h1 className="container text-md py-8  sm:py-12 lg:pb-1  text-md text-white font-bold leading-none mb-3 uppercase ">
+        What we do
+      </h1>
             <div className="flex flex-wrap">
-              <div className="w-5/6 sm:w-1/2 p-6">
+              <div className="w-5/6 sm:w-1/2 sm:p-6">
                 <h3 className="text-2xl font-bold leading-none mb-3">
                   Project Management
                 </h3>
@@ -27,20 +27,20 @@ function Services() {
                   <br />
                 </p>
               </div>
-              <div className="w-full sm:w-1/2 p-6">
+              <div className="w-full sm:w-1/2 sm:p-6">
                 <img className="w-full mx-auto" src={project} alt="Contacts" />
               </div>
             </div>
 
             <div className="flex flex-wrap flex-col-reverse sm:flex-row">
-              <div className="w-full sm:w-1/2 p-6 mt-6">
+              <div className="w-full sm:w-1/2 sm:p-6 sm:mt-6">
                 <img
                   className="w-full mx-auto"
                   src={man_drawing}
                   alt="Contacts"
                 />
               </div>
-              <div className="w-full sm:w-1/2 p-6 mt-6">
+              <div className="w-full sm:w-1/2 pt-5 sm:pt-0 sm:p-6 mt-6">
                 <div className="align-middle">
                   <h3 className="text-2xl font-bold leading-none mb-3">
                     Working Drawing{" "}
@@ -59,7 +59,7 @@ function Services() {
             </div>
 
             <div className="flex flex-wrap">
-              <div className="w-5/6 sm:w-1/2 p-6">
+              <div className="w-5/6 sm:w-1/2 pt-10 sm:p-6">
                 <h3 className="text-2xl font-bold leading-none mb-3">
                   Drafting
                 </h3>
@@ -75,9 +75,9 @@ function Services() {
                   <br />
                 </p>
               </div>
-              <div className="w-full sm:w-1/2 p-6">
+              <div className="w-full sm:w-1/2 sm:p-6">
                 <img
-                  className="w-full  mx-auto "
+                  className="w-full  mx-auto mb-10  "
                   src={drafting}
                   //   src="https://res.cloudinary.com/babyhulk/image/upload/w_70,h_70,f_auto/v1589318555/hero-image/avatar-01.png"
                   alt="Contacts"
@@ -86,7 +86,7 @@ function Services() {
             </div>
           </div>
         </section>
-      </div>
+     
     </div>
   )
 }

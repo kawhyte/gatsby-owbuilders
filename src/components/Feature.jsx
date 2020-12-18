@@ -7,15 +7,12 @@ function Feature() {
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="lg:text-center">
             <h2 class="text-sm sm:text-base text-red-700 font-semibold tracking-wide uppercase">
-              What You will get
+              WHy OW Builders?
             </h2>
             <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Unique Architectural solutions
             </p>
-            <p class="mt-4 max-w-2xl text-base text-gray-500 lg:mx-auto">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
-            </p>
+
           </div>
 
           <div class="mt-10">
@@ -45,8 +42,6 @@ function Feature() {
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
                   </dd>
                 </div>
               </div>
@@ -76,8 +71,6 @@ function Feature() {
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
                   </dd>
                 </div>
               </div>
@@ -107,8 +100,6 @@ function Feature() {
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
                   </dd>
                 </div>
               </div>
@@ -130,8 +121,6 @@ function Feature() {
                   </dt>
                   <dd class="mt-2 text-base text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
                   </dd>
                 </div>
               </div>
