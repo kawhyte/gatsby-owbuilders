@@ -14,8 +14,8 @@ const IndexPage = ({ data }) => {
       <SiteMetadata title="Home" description="Home page for OW Builders" />
 
       <Hero />
-      <WhatWeDoSection />
       <Feature /> 
+      <WhatWeDoSection />
 
       <Services />
       <Projects data ={data} />
