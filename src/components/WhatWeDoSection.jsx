@@ -4,7 +4,7 @@ import blueprint from "../images/greenhouse.jpg"
 
 function WhatWeDoSection() {
   return (
-    <section className="bg-gray-100 md:mt-10 lg:mt-0 ">
+    <section className="bg-gray-100 lg:mt-0 ">
       <div className="container max-w-5xl mx-auto md:pt-8">
         <div className="w-full mb-4">
           <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>

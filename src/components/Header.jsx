@@ -21,8 +21,9 @@ const Header = () => {
   `)
 
   return (
-    <nav className="px-10 container pt-3  pb-1 md:pb-6 md:pt-6  ">
-      <div className="flex justify-between items-center">
+   
+    <nav className="px-10  pt-3  pb-1 md:pb-6 md:pt-6 mt-0 fixed w-full z-30 bg-gray-100  ">
+      <div className="flex justify-between items-center ">
         <Link to="/" className="flex">
           <img alt="Logo" className="w-32 md:w-32 pb-3" src={img} />
           
@@ -55,6 +56,7 @@ const Header = () => {
         links={site.data.menu}
       />
     </nav>
+   
   )
 }
 
