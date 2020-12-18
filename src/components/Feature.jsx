@@ -6,7 +6,7 @@ function Feature() {
       <div class="py-8 my-4 sm:my-8 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="lg:text-center">
-            <h2 class="text-sm sm:text-base text-red-700 font-semibold tracking-wide uppercase">
+            <h2 class="text-sm sm:text-base text-accentColor font-semibold tracking-wide uppercase">
               Why OW Builders?
             </h2>
             <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -21,7 +21,7 @@ function Feature() {
 
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white">
+                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-accentColor text-white">
                     <svg
                       class="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function Feature() {
 
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white">
+                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-accentColor text-white">
                     <svg
                       class="h-6 w-6"
                       xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ function Feature() {
 
               <div class="flex">
                 <div class="flex-shrink-0">
-                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-700 text-white">
+                  <div class="flex items-center justify-center h-12 w-12 rounded-md bg-accentColor text-white">
       
 
 

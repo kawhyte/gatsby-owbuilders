@@ -16,6 +16,7 @@ module.exports = {
 
       black: '#000',
       white: '#fff',
+      accentColor:'#f6ad55',
 
       gray: {
         100: '#f7fafc',
@@ -128,9 +129,6 @@ module.exports = {
         900: '#702459',
       },
     }
-  
-
-
 
 
   },
