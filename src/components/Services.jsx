@@ -9,7 +9,7 @@ function Services() {
     
       
       <section className=" text-white ">
-      <div className="container max-w-5xl mx-auto md:mt-8">
+      <div className="container max-w-5xl mx-auto  md:mt-0">
       <h1 className="container text-md py-8  sm:py-12 lg:pb-1  text-md text-white font-bold leading-none mb-3 uppercase ">
         What we do
       </h1>
