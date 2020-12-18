@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import pool from "../images/house.jpg"
 import house from "../images/house2.jpg"
 
 function Hero() {

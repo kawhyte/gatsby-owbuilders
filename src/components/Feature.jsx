@@ -3,11 +3,11 @@ import React from "react"
 function Feature() {
   return (
     <div>
-      <div class="py-8 bg-white">
+      <div class="py-8 my-4 sm:my-8 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="lg:text-center">
             <h2 class="text-sm sm:text-base text-red-700 font-semibold tracking-wide uppercase">
-              WHy OW Builders?
+              Why OW Builders?
             </h2>
             <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Unique Architectural solutions
