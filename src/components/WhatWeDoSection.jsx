@@ -1,6 +1,6 @@
 import React from "react"
 import manDrawing from "../images/large_drawing.jpg"
-import blueprint from "../images/greenhouse.jpg"
+import blueprint from "../images/greenhouse.webp"
 
 function WhatWeDoSection() {
   return (

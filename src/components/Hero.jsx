@@ -1,13 +1,13 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import house from "../images/house2.jpg"
+import house from "../images/house2.webp"
 import Img from "gatsby-image"
 
 function Hero() {
 
   const data = useStaticQuery(graphql`
   query {
-    house: file(relativePath: { eq: "house2.jpg" }) {
+    house: file(relativePath: { eq: "house2.webp" }) {
       childImageSharp {
         fluid(quality: 100) {
           ...GatsbyImageSharpFluid_withWebp
