@@ -1,8 +1,29 @@
 import React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import house from "../images/house2.jpg"
+import Img from "gatsby-image"
 
 function Hero() {
+
+  const data = useStaticQuery(graphql`
+  query {
+    house: file(relativePath: { eq: "house2.jpg" }) {
+      childImageSharp {
+        fluid(quality: 100) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+
+  }
+`)
+
+
+
+
+
+
+
   return (
    
     <div className="overflow-hidden ">   
@@ -25,18 +46,16 @@ function Hero() {
                   View Previous Projects
                 </Link>
               </div>
-              <div className="mt-3 sm:mt-0 sm:ml-3">
-                <a href="about" className="w-10/12 sm:w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-700 bg-indigo-100 hover:text-gray-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline-indigo focus:border-indigo-300 transition duration-150 ease-in-out  uppercase">
-                  Who we are
-                </a>
-              </div>
+
             </div>
           </div>
         </main>
       </div>
     </div>
-    <div className="bg-cover bg-center  dark-img hero  w-full h-96 md:h-auto  ">
-      <img className=" sm:w-full kenburns-top object-cover sm:h-72 md:h-96 lg:w-full h-auto " src={house} alt="" />
+    <div className="bg-cover bg-center max-h-full max-w-full dark-img hero  w-full h-96 md:h-auto  ">
+      
+    <img className=" sm:w-full kenburns-top object-cover sm:h-72 md:h-96 lg:w-full h-auto " src={house} alt="" />
+
 
 
       </div>
