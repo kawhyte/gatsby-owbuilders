@@ -26,7 +26,7 @@ export default props => {
         image={thumbnail.localFile.publicURL}
       />
       <div className="bg-gray-0 py-12 lg:py-16">
-        <div className="container">
+        <div className="container  mt-24">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-2/3 pb-8">
               {gallery && gallery.length === 1 && (
