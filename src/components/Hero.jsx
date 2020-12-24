@@ -42,12 +42,12 @@ function Hero() {
               <div className="w-full lg:w-9/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-5xl">
-                 <p>We work on: {' '}</p>
+                 <p>What we do: {' '}</p>
                     <Typical
                       loop={Infinity}
                       wrapper="b"
                       steps={[ 
-                        "Architecture And Design", 3000, 
+                        "Architecture & Design", 3000, 
                         "Industrial Designs", 3000, 
                         "Drafting", 2000, 
                         "Mechanical Drawings", 3000, 
