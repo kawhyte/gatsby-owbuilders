@@ -7,7 +7,7 @@ const Card = props => {
   const { name, slug, summary, thumbnail } = props
 
   return (
-    <div className="bg-white h-full shadow-sm rounded-md overflow-hidden group">
+    <div className="bg-white h-full  rounded-md overflow-hidden group">
       <Link to={`/${slug}`}>
         <div className="group-hover:opacity-75 transition duration-150 ease-in-out">
           <Img fluid={thumbnail.localFile.childImageSharp.fluid} alt={name} />

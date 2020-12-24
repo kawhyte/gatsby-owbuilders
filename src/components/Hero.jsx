@@ -1,69 +1,132 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import house from "../images/house2.webp"
+import BG from "../images/house2.webp"
 import Img from "gatsby-image"
+import Typical from "react-typical"
 
 function Hero() {
-
   const data = useStaticQuery(graphql`
-  query {
-    house: file(relativePath: { eq: "house2.webp" }) {
-      childImageSharp {
-        fluid(quality: 100) {
-          ...GatsbyImageSharpFluid_withWebp
+    query {
+      house: file(relativePath: { eq: "house2.webp" }) {
+        childImageSharp {
+          fluid(quality: 100) {
+            ...GatsbyImageSharpFluid_withWebp
+          }
         }
       }
     }
-
-  }
-`)
-
-
-
-
-
-
+  `)
 
   return (
-   
-    <div className="overflow-hidden ">   
-    <div className="container mx-auto  ">
-      <div className="absolute mt-11 md:mt-0  z-10 pb-8  sm:pb-16 md:pb-20 lg:max-w-3xl lg:w-full lg:pb-28 xl:pb-32">
+    <div>
+      <main>
+        <div
+          className="relative pt-16 pb-32 flex content-center items-center justify-center"
+          style={{
+            minHeight: "75vh",
+          }}
+        >
+          <div
+            className="absolute top-0 w-full h-full bg-center bg-cover"
+            style={{
+              backgroundImage: `url('${BG}')`,
+            }}
+          >
+            <span
+              id="blackOverlay"
+              className="w-full h-full absolute opacity-25 bg-black"
+            ></span>
+          </div>
+          <div className="container relative mx-auto">
+            <div className="items-center flex flex-wrap sm:px-24 ">
+              <div className="w-full lg:w-9/12 px-4 ml-auto mr-auto text-center">
+                <div className="pr-12">
+                  <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-5xl">
+                 <p>We work on: {' '}</p>
+                    <Typical
+                      loop={Infinity}
+                      wrapper="b"
+                      steps={[ 
+                        "Architecture And Design", 3000, 
+                        "Industrial Designs", 3000, 
+                        "Drafting", 2000, 
+                        "Mechanical Drawings", 3000, 
+                        "Architectural Project Management", 2000, 
+                        
+                        "Electrical Drawings", 2000, 
+                        "Redesigning", 2000, 
+                        "Unique Architectural Solutions", 3000,
+                      "Working Drawings", 2000]}
+                    />
+                  </h2>
+                  <h2 className="py-1 text-4xl tracking-tight leading-10 font-extrabold text-accentColor sm:text-4xl sm:leading-none md:text-4xl lg:text-5xl "></h2>
 
-        <main className=" md:py-20 mt-10 mx-auto px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-          <div className="sm:text-left ">
-            <h2 className="text-3xl tracking-tight leading-10 font-extrabold text-white sm:text-5xl sm:leading-none md:text-6xl">
-            Architectural  
-              <br className="xl:hidden" />
-              <span className="text-white"> Project Management </span>
-            </h2>
-            <p className="font-mono mt-3 text-base text-gray-200 sm:mt-5 sm:text-lg sm:max-w-2xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Make your dream residential home or commercial building a reality.
-            </p>
-            <div className="mt-5 sm:mt-8 sm:flex justify-start">
-              <div className="rounded-md shadow">
-                <Link to="projects" className="  sm:w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-accentColor hover:bg-gray-900 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out  uppercase">
-                  View Previous Projects
-                </Link>
+                  <p className="mt-4 mb-8 text-base md:text-xl text-gray-300 ">
+                    Make your dream residential home or commercial building a
+                    reality.
+                  </p>
+                  <Link to="/projects">
+                    <button
+                      className={
+                        "bg-accentColor text-white  active:bg-gray-100" +
+                        " text-xs font-bold uppercase px-4 py-4 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                      }
+                      type="button"
+                      style={{ transition: "all .15s ease" }}
+                    >
+                      <i className="fas fa-arrow-alt-circle-down"></i>View
+                      Previous Projects
+                    </button>
+                  </Link>
+                </div>
               </div>
-
             </div>
           </div>
-        </main>
-      </div>
+          <div
+            className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+            style={{ height: "70px", transform: "translateZ(0)" }}
+          >
+            <svg
+              className="absolute bottom-0 overflow-hidden"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              version="1.1"
+              viewBox="0 0 2560 100"
+              x="0"
+              y="0"
+            >
+              <polygon
+                className="text-gray-300 fill-current"
+                points="2560 0 2560 100 0 100"
+              ></polygon>
+            </svg>
+          </div>
+        </div>
+
+        <section className="relative py-6">
+          <div
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+            style={{ height: "80px", transform: "translateZ(0)" }}
+          >
+            <svg
+              className="absolute bottom-0 overflow-hidden"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              version="1.1"
+              viewBox="0 0 2560 100"
+              x="0"
+              y="0"
+            >
+              <polygon
+                className="text-white fill-current"
+                points="2560 0 2560 100 0 100"
+              ></polygon>
+            </svg>
+          </div>
+        </section>
+      </main>
     </div>
-    <div className="bg-cover bg-center max-h-full max-w-full dark-img hero  w-full h-96 md:h-auto  ">
-      
-    <img className=" sm:w-full kenburns-top object-cover sm:h-72 md:h-96 lg:w-full h-auto " src={house} alt="" />
-
-
-
-      </div>
-  </div>
-
   )
 }
 
 export default Hero
-
-

@@ -23,7 +23,7 @@ const Footer = () => {
   `)
 
   return (
-    <div className="bg-black  ">
+    <div className="bg-gray-100  ">
     <div className="container py-12 md:flex md:items-center md:justify-between">
       <ul className="flex justify-center md:order-2">
         <FooterLink href={links.twitter} icon={FaTwitter} label="Twitter" />

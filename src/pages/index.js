@@ -17,8 +17,8 @@ const IndexPage = ({ data }) => {
       <Feature /> 
       <WhatWeDoSection />
 
-      <Services />
       <Projects data ={data} />
+      <Services />
    
     </Layout>
   )
