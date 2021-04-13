@@ -44,7 +44,7 @@ function Hero() {
 
 
 
-                <h1 className="mt-4 mb-8 text-white font-extrabold text-3xl md:text-xl text-gray-300 ">
+                <h1 className="mt-4 mb-8 text-white font-extrabold text-3xl md:text-4xl text-gray-300 ">
                 Make your dream residential home or commercial building a
                 reality.
               </h1>
