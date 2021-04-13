@@ -19,9 +19,9 @@ function Hero() {
 
   return (
     <div>
-      <main>
+      <main className="">
         <div
-          className="relative pt-16 pb-32 flex content-center items-center justify-center"
+          className="relative  flex content-center items-center justify-center"
           style={{
             minHeight: "75vh",
           }}
@@ -37,22 +37,20 @@ function Hero() {
               className="w-full h-full absolute opacity-25 bg-black"
             ></span>
           </div>
-          <div className="container relative mx-auto">
+          <div className=" mt-20 relative mx-auto ">
             <div className="items-center flex flex-wrap sm:px-24 ">
-              <div className="w-full lg:w-9/12 px-4 ml-auto mr-auto text-center">
+              <div className="w-full lg:w-10/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-
-
-
-                <h1 className="mt-4 mb-8 text-white font-extrabold text-3xl md:text-4xl text-gray-300 ">
-                Make your dream residential home or commercial building a
-                reality.
-              </h1>
-
+                  <h1 className="mb-6 text-white font-extrabold text-4xl md:text-4xl ">
+                    Architecture & Design
+                  </h1>
+                  <p className="mt-4 mb-6 font-bold text-xl md:text-2xl text-gray-300 ">
+                    Make your dream residential home or commercial building a
+                    reality.
+                  </p>
 
                   <h2 className="text-xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-4xl">
-                 
-                    <Typical
+                    {/*<Typical
                       loop={Infinity}
                       wrapper="b"
                       steps={[ 
@@ -66,69 +64,39 @@ function Hero() {
                         "Redesigning", 2000, 
                         "Unique Architectural Solutions", 3000,
                       "Working Drawings", 2000]}
-                    />
+                      />*/}
                   </h2>
 
-                
                   <Link to="/projects">
                     <button
                       className={
                         "bg-accentColor text-white  active:bg-gray-100" +
-                        " text-xs font-bold uppercase px-4 py-4 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                        " text-xs font-bold px-4 py-4 rounded-lg shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                       }
                       type="button"
                       style={{ transition: "all .15s ease" }}
                     >
                       <i className="fas fa-arrow-alt-circle-down"></i>View
-                      Previous Projects
+                      Projects
+                    </button>
+                  </Link>
+                  <Link to="/projects">
+                    <button
+                      className={
+                        "bg-white text-accentColor  active:bg-gray-100" +
+                        " text-xs font-bold px-4 py-4 rounded-lg shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                      }
+                      type="button"
+                      style={{ transition: "all .15s ease" }}
+                    >
+                      <i className="fas fa-arrow-alt-circle-down"></i>Contact Us
                     </button>
                   </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-            style={{ height: "70px", transform: "translateZ(0)" }}
-          >
-            <svg
-              className="absolute bottom-0 overflow-hidden"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon
-                className="text-gray-300 fill-current"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
-            </svg>
-          </div>
         </div>
-
-        <section className="relative py-6">
-          <div
-            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-            style={{ height: "80px", transform: "translateZ(0)" }}
-          >
-            <svg
-              className="absolute bottom-0 overflow-hidden"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon
-                className="text-white fill-current"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
-            </svg>
-          </div>
-        </section>
       </main>
     </div>
   )
