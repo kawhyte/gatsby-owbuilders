@@ -24,7 +24,7 @@ const Footer = () => {
 
   return (
     <div className="bg-gray-100  ">
-    <div className="container py-12 md:flex md:items-center md:justify-between">
+    <div className="container py-1 md:flex md:items-center md:justify-between">
       <ul className="flex justify-center md:order-2">
         <FooterLink href={links.twitter} icon={FaTwitter} label="Twitter" />
         <FooterLink href={links.facebook} icon={FaFacebook} label="Facebook" />
@@ -40,7 +40,7 @@ const Footer = () => {
         />
       </ul>
       <div className="mt-8 md:mt-0 md:order-1">
-        <p className="text-center text-sm md:text-base text-md pb-2 py-12 lg:pb-1  text-md text-gray-500 font-bold leading-none mb-3 uppercase">
+        <p className="text-center md:text-base pb-2 py-12 lg:pb-1  text-xs text-gray-500 font-bold leading-none mb-3 uppercase">
           &copy; 2020 OW Builders. All rights reserved.
         </p>
       </div>

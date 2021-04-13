@@ -10,10 +10,10 @@ function WhatWeDoSection() {
           <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div className="flex flex-wrap">
-          <div className="w-5/6 sm:w-1/2 p-6">
-            <h3 className=" lg:text-md text-accentColor font-bold leading-none mb-3 uppercase">
+          <div className="w-6/6 sm:w-1/2 p-6">
+           {/*<h3 className=" lg:text-md text-accentColor font-bold leading-none mb-3 uppercase">
               About Us
-            </h3>
+  </h3>*/}
             <p className="text-gray-600 text-base  lg:text-lg">
               For each project we establish relationships with partners who we
               know will help us create added value for your project. As well as

@@ -5,17 +5,17 @@ import drafting from "../images/drafting.jpg"
 function Services() {
   return (
     
-    <div className="bg-black  ">
+    <div className="bg-black py-3  ">
     
       
-      <section className=" text-white ">
+      <section className=" text-white my-8 ">
       <div className="container max-w-5xl mx-auto  md:mt-0">
-      <h1 className="container text-md py-8  sm:py-12 lg:pb-1  text-md text-white font-bold leading-none mb-3 uppercase ">
+      {/* <h1 className="container text-md py-8  sm:py-12 lg:pb-1  text-md text-white font-bold leading-none mb-3 uppercase ">
         What we do
-      </h1>
+  </h1>*/}
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 sm:p-6">
-                <h3 className="text-2xl font-bold leading-none mb-3">
+                <h3 className="text-xl font-bold leading-none mb-3">
                   Project Management
                 </h3>
                 <p className="text-gray-400 mb-8 text-base lg:text-lg">
@@ -42,7 +42,7 @@ function Services() {
               </div>
               <div className="w-full sm:w-1/2 pt-5 sm:pt-0 sm:p-6 mt-6">
                 <div className="align-middle">
-                  <h3 className="text-2xl font-bold leading-none mb-3">
+                  <h3 className="text-xl font-bold leading-none mb-3">
                     Working Drawing{" "}
                   </h3>
                   <p className="text-gray-400 mb-8 text-base lg:text-lg">
@@ -60,7 +60,7 @@ function Services() {
 
             <div className="flex flex-wrap">
               <div className="w-5/6 sm:w-1/2 pt-10 sm:p-6">
-                <h3 className="text-2xl font-bold leading-none mb-3">
+                <h3 className="text-xl font-bold leading-none mb-3">
                   Drafting
                 </h3>
                 <p className="text-gray-400 mb-8 text-base lg:text-lg">

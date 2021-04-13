@@ -22,7 +22,7 @@ const Header = () => {
 
   return (
    
-    <nav className="px-10   pt-  pb-1 md:pb-2 md:pt- mt-0 fixed w-full z-30 bg-gray-100  ">
+    <nav className="px-10 md:pb-2 md:pt- mt-0 fixed w-full z-30 bg-gray-100  ">
       <div className="flex justify-between items-center ">
         <Link to="/" className="flex">
           <img alt="Logo" className="w-32 md:w-32 pt-2" src={img} />
