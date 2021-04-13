@@ -22,10 +22,10 @@ const Header = () => {
 
   return (
    
-    <nav className="px-10   pt-3  pb-1 md:pb-6 md:pt-6 mt-0 fixed w-full z-30 bg-gray-100  ">
+    <nav className="px-10   pt-  pb-1 md:pb-2 md:pt- mt-0 fixed w-full z-30 bg-gray-100  ">
       <div className="flex justify-between items-center ">
         <Link to="/" className="flex">
-          <img alt="Logo" className="w-32 md:w-32 pb-3" src={img} />
+          <img alt="Logo" className="w-32 md:w-32 pt-2" src={img} />
           
         </Link>
 
@@ -41,7 +41,7 @@ const Header = () => {
           {site.data.menu.map((link, key) => (
             <Link
               key={`menu_desktop_link${key}`}
-              className="ml-6 sm:ml-8 text-xs  md:text-base font-medium px-px border-b-2 pb-2 border-transparent text-gray-700 hover:text-gray-800 hover:border-gray-200 transition duration-150 ease-in-out uppercase font-mono"
+              className="ml-6 sm:ml-8 text-xs   font-medium px-px border-b-2 pb-2 border-transparent text-gray-700 hover:text-gray-800 hover:border-gray-200 transition duration-150 ease-in-out uppercase font-mono"
               activeClassName="border-accentColor text-gray-900 hover:border-red-400"
               to={link.to}
             >

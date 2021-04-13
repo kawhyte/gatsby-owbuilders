@@ -41,8 +41,17 @@ function Hero() {
             <div className="items-center flex flex-wrap sm:px-24 ">
               <div className="w-full lg:w-9/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-5xl">
-                 <p>What we do: {' '}</p>
+
+
+
+                <h1 className="mt-4 mb-8 text-white font-extrabold text-3xl md:text-xl text-gray-300 ">
+                Make your dream residential home or commercial building a
+                reality.
+              </h1>
+
+
+                  <h2 className="text-xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-4xl">
+                 
                     <Typical
                       loop={Infinity}
                       wrapper="b"
@@ -59,12 +68,8 @@ function Hero() {
                       "Working Drawings", 2000]}
                     />
                   </h2>
-                  <h2 className="py-1 text-4xl tracking-tight leading-10 font-extrabold text-accentColor sm:text-4xl sm:leading-none md:text-4xl lg:text-5xl "></h2>
 
-                  <p className="mt-4 mb-8 text-base md:text-xl text-gray-300 ">
-                    Make your dream residential home or commercial building a
-                    reality.
-                  </p>
+                
                   <Link to="/projects">
                     <button
                       className={
